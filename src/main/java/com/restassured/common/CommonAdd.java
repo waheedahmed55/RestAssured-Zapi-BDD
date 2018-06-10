@@ -1,0 +1,44 @@
+package com.restassured.common;
+
+public interface CommonAdd {
+	static final int CIVIC = 1;
+	static final int RURAL = 2;
+	static final int POBOX = 3;
+	static final int GEN_DELIVERY = 4;
+	Integer getAddressTypeCd();
+	void setAddressTypeCd(Integer addressTypeCd);
+	String getPostalCode();
+	void setPostalCode(String postalCode);
+	String getProvinceCode();
+	void setProvinceCode(String provinceCode);
+	String getMunicipality();
+	void setMunicipality(String municipality);
+	Integer getStreetNbr();
+	void setStreetNbr(Integer streetNbr);
+	String getStreetNbrSuffix(); 
+	void setStreetNbrSuffix(String streetNbrSuffix);
+	String getStreetName();
+	void setStreetName(String streetName);
+	Integer getStreetTypeCd();
+	void setStreetTypeCd(Integer streetTypeCd);
+	Integer getStreetDirectionCd();
+	void setStreetDirectionCd(Integer streetDirectionCd);
+	Integer getPoBoxNbr();
+	void setPoBoxNbr(Integer poBoxNbr);
+	Integer getRuralIdentifierCd();
+	void setRuralIdentifierCd(Integer ruralIdentifierCd);
+	String getRouteName();
+	void setRouteName(String routeName);
+	String getUnitNbr();
+	void setUnitNbr(String unitNbr);
+	Integer getCompartment();
+	void setCompartment(Integer compartment);
+	Integer getSite();
+	void setSite(Integer site);
+	Integer getLot();
+	void setLot(Integer lot);
+	Integer getConcession();
+	void setConcession(Integer concession);
+	String getInstallationName();
+	void setInstallationName(String installationName);
+}
